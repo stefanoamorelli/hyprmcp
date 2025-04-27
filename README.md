@@ -18,6 +18,8 @@
 
 ---
 
+https://github.com/user-attachments/assets/b4fc1d26-ec04-451a-b7c9-7f87b44d9c9e
+
 A lightweight, unofficial [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol) server that exposes all the functionality of `hyprctl`—the command-line interface for the [Hyprland](https://wiki.hyprland.org/) Wayland compositor—to language models.
 
 This server enables natural language interfaces to query and control Hyprland's window management, layouts, inputs, and more.
