@@ -4,8 +4,6 @@
 
 </div>
 
----
-
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -16,8 +14,6 @@
 
 </div>
 
----
-
 https://github.com/user-attachments/assets/b4fc1d26-ec04-451a-b7c9-7f87b44d9c9e
 
 A lightweight, unofficial [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol) server that exposes all the functionality of `hyprctl`—the command-line interface for the [Hyprland](https://wiki.hyprland.org/) Wayland compositor—to language models.
@@ -25,8 +21,6 @@ A lightweight, unofficial [Model Context Protocol (MCP)](https://github.com/mode
 This server enables natural language interfaces to query and control Hyprland's window management, layouts, inputs, and more.
 
 > **Note:** This project is experimental and in beta.
-
----
 
 ## 🚀 Quick Start
 
@@ -67,8 +61,6 @@ For example, in Claude Desktop, modify the `~/.config/Claude/claude_desktop_conf
 },
 ```
 
----
-
 ## 🧰 Available Tools
 
 | Tool Name             | Description                                       |
@@ -89,8 +81,6 @@ For example, in Claude Desktop, modify the `~/.config/Claude/claude_desktop_conf
 
 These tools allow language models to interact with Hyprland's features seamlessly.
 
----
-
 ## 💡 Example Usage
 
 **User Prompt:** "Switch to workspace 2."
@@ -100,8 +90,6 @@ These tools allow language models to interact with Hyprland's features seamlessl
 **User Prompt:** "What is the current active window?"
 
 **MCP Server Action:** Executes `hyprctl activewindow -j` and returns the details.
-
----
 
 ## 🛠️ Development
 
@@ -113,17 +101,12 @@ mcp dev server.py
 
 Ensure that Hyprland is running and the necessary environment variables are set.
 
----
-
 ## 📚 References
 
 - [Hyprland Documentation](https://wiki.hyprland.org/)
 - [Model Context Protocol](https://github.com/modelcontextprotocol)
 - [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)
 
----
-
 ## 📜 License
 
 [MIT License](LICENSE) © 2025 Stefano Amorelli
-
